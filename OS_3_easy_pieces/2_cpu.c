@@ -1,4 +1,7 @@
-// code that loops and prints
+// code that loops and prints 
+// ` gcc -o cpu cpu.c -Wall `
+// `./cpu "A"`
+// demonstrates virtualization with `./cpu "A" & ./cpu "B" & ./cpu "C" & ./cpu "D"`
 
 #include<stdio.h>
 #include<stdlib.h>
